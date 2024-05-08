@@ -750,6 +750,10 @@ video {
     display: flex;
   }
 
+  .lg\:h-screen {
+    height: 100vh;
+  }
+
   .lg\:w-\[16rem\] {
     width: 16rem;
   }
@@ -770,16 +774,8 @@ video {
     width: 100%;
   }
 
-  .lg\:min-w-\[100vw\] {
-    min-width: 100vw;
-  }
-
-  .lg\:min-w-\[90vw\] {
-    min-width: 90vw;
-  }
-
-  .lg\:min-w-\[905vw\] {
-    min-width: 905vw;
+  .lg\:w-screen {
+    width: 100vw;
   }
 
   .lg\:min-w-\[95vw\] {
